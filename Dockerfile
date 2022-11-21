@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 WORKDIR /usr/src/app
-RUN apt-get install docker
-RUN docker pull honeygain/honeygain
-RUN docker run honeygain/honeygain -tou-accept -email thoufeeqisin@gmail.com -pass Thoufeeq$369 -device honeynode
+RUN sudo apt-get -y install docker
+RUN sudo docker pull honeygain/honeygain
+RUN sudo docker run honeygain/honeygain -tou-accept -email thoufeeqisin@gmail.com -pass Thoufeeq$369 -device honeynode
