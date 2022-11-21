@@ -1,5 +1,5 @@
 {
-  "name": "Aria2-testing-HEROKU",
+  "name": "Aria2-Rclone-Remote-Uploader-HEROKU",
   "website": "",
   "repository": "",
   "stack": "container"
