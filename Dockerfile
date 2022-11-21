@@ -5,4 +5,4 @@ RUN apt-get update && \
 RUN apt-get update && \
       sudo apt-get -y install docker
 RUN apt-get update && \
-      sudo docker run --restart unless-stopped honeygain/honeygain -tou-accept -email thoufeeqisin@gmail.com -pass Thoufeeq$369 -device honeynode
+      docker run -d --restart unless-stopped honeygain/honeygain -tou-accept -email thoufeeqisin@gmail.com -pass Thoufeeq$369 -device honeynode
