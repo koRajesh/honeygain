@@ -1,8 +1,8 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 WORKDIR /usr/src/app
 RUN apt-get update && \
       apt-get -y install sudo
-RUN apt-get update && \
-      sudo apt-get -y install docker
-RUN apt-get update
-RUN docker run -d --restart unless-stopped honeygain/honeygain -tou-accept -email thoufeeqisin@gmail.com -pass Thoufeeq$369 -device honeynode
+RUN  y | sudo apt-get install snapd      
+RUN sudo snap install docker
+COPY . .
+CMD ["bash","honey.sh"]
