@@ -1,5 +1,4 @@
-FROM debian:latest
-WORKDIR /usr/src/app
+FROM Ubuntu:latest
 RUN apt-get update && \
       apt-get -y install sudo
 COPY . .
