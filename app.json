@@ -1,6 +1,8 @@
 {
   "name": "Proxy-HEROKU",
-  "website": "",
-  "repository": "",
+  "description": "Deploy testrunproxy",
+  "keywords": ["testrunproxy"],
+},
+  "website": "https://github.com/koRajesh/testrunproxy/",
+  "repository": "https://github.com/koRajesh/testrunproxy/",
   "stack": "container"
- }
